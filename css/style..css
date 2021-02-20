@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@300&display=swap');
+*{
+    font-family: 'IBM Plex Serif', serif;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+
+li{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.border{
+    font-weight: bold;
+    border-radius: 8px;
+    color: black;
+}
+@font-face {
+    font-family: tulkiFont;
+    src: url(/font/Art\ Brewery.ttf);
+  }
+/* Header */
+.headerBox{
+    text-align: center;
+}
+.header{
+    height: 600px;
+    background-image: url(/images/background/vini\ 2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.pageTitle{
+    display: inline-block;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 75px;
+}
+/* navigation */
+.liNav{
+    font-size: 35px;
+    margin: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: inline-block;
+}
+.liNav:hover{
+    color: white;
+}
+/* about */
+.about{
+    text-align: center;
+    height: 550px;
+}
+.aboutTitle{
+    color: black;
+    border-radius: 10px;
+    margin: 40px;
+    font-size: 50px;
+}
+.aboutText{
+    width: 600px;
+    color: black;
+    display: inline-block;
+    border-radius: 10px;
+}
+/* contato */
+
+.contact{
+    font-weight: bold;
+    color: black;
+    font-size: 25px;
+    margin: 20px;
+    padding: 5px;
+}
+
+.contact:hover{
+    color:rgb(79, 79, 241);
+}
+
+@media screen and (max-width: 700px){
+    .header{
+        height: 200px;
+        background-image: url(/images/background/vini\ 2.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .pageTitle{
+        margin-top: 30px;
+        display: inline-block;
+        text-align: center;
+        font-size: 38px;
+    }
+    /*  */
+    .liNav{
+        margin: auto;
+        border: 2px black solid;
+        font-size: 18px;
+        display: block;
+        width: 130px;
+        margin-bottom: 5px;
+        padding: 0px;
+    }
+    .liNav:hover{
+        color: white;
+    }
+    .about{
+        height: 550px;}
+        
+
+        /* about */
+        .aboutTitle{
+            display: none;
+        }
+        .aboutText{
+            margin-top: 70px;
+            width: 80%;
+            color: black;
+            display: inline-block;
+            border-radius: 10px;
+        }
+        .photo{
+            margin-top: 20px;
+            height: 300px;
+            width: 300px;
+            margin-bottom: 10px;
+        }
+}
