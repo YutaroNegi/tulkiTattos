@@ -20,7 +20,7 @@ li{
 }
 @font-face {
     font-family: tulkiFont;
-    src: url(/font/Art\ Brewery.ttf);
+    src: url(../font/Art\ Brewery.ttf);
   }
 /* Header */
 .headerBox{
